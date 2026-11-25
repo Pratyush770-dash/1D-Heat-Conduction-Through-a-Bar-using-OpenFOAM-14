@@ -33,7 +33,7 @@ By the end of the run the residual in the log was down around 1e-6 and the solve
 ```
 openfoam_1D_Conduction/
 ├── 0/                  initial and boundary conditions (T, DT)
-├── 100/ ... 500/       results written every 100 s
+├── Results for every 100s/       results written every 100 s
 ├── constant/           physicalProperties, transportProperties, polyMesh
 ├── system/             blockMeshDict, controlDict, fvSchemes, fvSolution
 ├── case.foam           empty file so ParaView can open the case
